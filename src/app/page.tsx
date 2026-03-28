@@ -10,6 +10,11 @@ const Home = () => {
       <Skills />
       <Projects />
       <Contact />
+      <img
+        src="/images/cara.png"
+        alt="background"
+        className="fixed bottom-0 right-0 h-72 pointer-events-none"
+      />
     </div>
   );
 };
