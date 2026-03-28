@@ -2,8 +2,10 @@ import { skills } from "../../data/portfolio";
 
 export const Skills = () => {
   return (
-    <section>
-      <h2 className="mb-6 text-xl font-bold">Skills</h2>
+    <section className="hover:bg-violet-100 p-4 rounded-lg group">
+      <h2 className="mb-6 text-2xl font-bold group-hover:text-3xl group-hover:text-violet-800">
+        Skills
+      </h2>
       <div className="flex flex-wrap gap-3">
         {skills.map((skill) => (
           <span

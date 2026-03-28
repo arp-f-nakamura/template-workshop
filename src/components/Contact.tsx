@@ -2,8 +2,10 @@ import { contact } from "../../data/portfolio";
 
 export const Contact = () => {
   return (
-    <section>
-      <h2 className="mb-6 text-xl font-bold">Contact</h2>
+    <section className="hover:bg-violet-100 p-4 rounded-lg group">
+      <h2 className="mb-6 text-2xl font-bold group-hover:text-3xl group-hover:text-violet-800">
+        Contact
+      </h2>
       <ul className="space-y-2 text-gray-700">
         {contact.github && (
           <li>

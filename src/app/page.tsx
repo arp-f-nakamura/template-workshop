@@ -5,7 +5,7 @@ import { Contact } from "@/components/Contact";
 
 const Home = () => {
   return (
-    <div className="space-y-16">
+    <div className="space-y-6">
       <Profile />
       <Skills />
       <Projects />

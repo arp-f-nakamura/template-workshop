@@ -2,8 +2,10 @@ import { projects } from "../../data/portfolio";
 
 export const Projects = () => {
   return (
-    <section>
-      <h2 className="mb-6 text-xl font-bold">Projects</h2>
+    <section className="hover:bg-violet-100 p-4 rounded-lg group">
+      <h2 className="mb-6 text-2xl font-bold group-hover:text-3xl group-hover:text-violet-800">
+        Projects
+      </h2>
       <div className="grid gap-6 sm:grid-cols-2">
         {projects.map((project) => (
           <a
