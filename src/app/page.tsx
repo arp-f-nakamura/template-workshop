@@ -13,7 +13,7 @@ const Home = () => {
       <img
         src="/images/cara.png"
         alt="background"
-        className="fixed bottom-0 right-0 h-72 pointer-events-none"
+        className="fixed bottom-10 right-0 h-72 pointer-events-none"
       />
     </div>
   );
