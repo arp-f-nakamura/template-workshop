@@ -8,7 +8,7 @@ export const Profile = () => {
     </p>
   ));
   return (
-    <section className="flex flex-col items-center gap-6 sm:flex-row">
+    <section className="flex flex-col items-center gap-6 sm:flex-row hover:bg-violet-100 p-4 rounded-lg group">
       <div className="relative h-32 w-32 shrink-0 overflow-hidden rounded-full bg-gray-200">
         <Image
           src={profile.avatarUrl}
@@ -19,7 +19,9 @@ export const Profile = () => {
         />
       </div>
       <div className="text-center sm:text-left">
-        <h2 className="text-2xl font-bold">{profile.name}</h2>
+        <h2 className="text-2xl font-bold group-hover:text-3xl group-hover:text-violet-800">
+          {profile.name}
+        </h2>
         <p className="mt-1 text-lg text-gray-600">{profile.role}</p>
         {bios}
       </div>
