@@ -8,10 +8,11 @@ export const profile = {
 };
 
 export const skills = [
-  { name: "JavaScript", level: "忘れかけ" },
+  { name: "JavaScript", level: "使用経験あり" },
   { name: "React", level: "実務使用中" },
   { name: "TypeScript", level: "実務使用中" },
   { name: "Next.js", level: "学習中" },
+  { name: "supabase", level: "個人開発にて使用" },
   // 追加・削除してOK
 ];
 
@@ -31,8 +32,14 @@ export const projects = [
   {
     title: "EmoPush（共同開発）",
     description: "チームメンバーの感情を共有するWebアプリ",
-    techStack: ["React", "TypeScript"],
+    techStack: ["React", "TypeScript", "supabase"],
     url: "https://emo-push.pages.dev/",
+  },
+  {
+    title: "きょむがちゃ",
+    description: "無限にガチャがひけるPWAアプリ",
+    techStack: ["React", "TypeScript", "motion", "localStorage"],
+    url: "https://kyomu-gacha.vercel.app/",
   },
   // 複数追加できます
 ];
